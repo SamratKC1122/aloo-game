@@ -32,3 +32,8 @@ body {
 .info-box p {
   margin: 0;
 }
+
+.info-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(56,189,248,0.8);
+}
